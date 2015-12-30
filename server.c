@@ -10,6 +10,11 @@
 #define N 3 // player numbers
 #define CardUpperLimit 10;
  
+
+ int test = 100;
+
+
+
 // Game setting 
 struct player{
     int job;
