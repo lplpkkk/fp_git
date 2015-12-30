@@ -10,11 +10,6 @@
 #define N 3 // player numbers
 #define CardUpperLimit 10;
  
-
- int test = 100;
-
-
-
 // Game setting 
 struct player{
     int job;
@@ -177,16 +172,6 @@ void DecideTheFirstOrder(){
         }
     }
 }
-// void changeTheFirstOrder(){
-//     int i;
-//     for (i=0; i<N; i++) {
-//         if ((playerlist[i].firstOrder+1)>(N-1)) {
-//             playerlist[i].firstOrder = playerlist[i].firstOrder+1-N;
-//         }else{
-//             playerlist[i].firstOrder = playerlist[i].firstOrder+1;
-//         }
-//     }
-// }
 void DecideTheSecondOrder(){
     int i,j,temp;
     int tempOrder[N];
